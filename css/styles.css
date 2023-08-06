@@ -109,6 +109,11 @@ body {
     gap: 40px;
 }
 
+.menu-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .menu-link {
     font-size: 16px;
     font-weight: 500;
@@ -204,6 +209,7 @@ body {
 
 .benefits-list {
     display: flex;
+    gap: 24px
 }
 
 .benefits-list-title {
@@ -232,7 +238,7 @@ body {
 .what-doing-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .what-doing-list-item {
@@ -246,7 +252,7 @@ body {
 .team-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .team {
@@ -290,6 +296,8 @@ body {
 .page-footer-container {
     display: flex;
     align-items: center;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logotype-text-secondary-color {
