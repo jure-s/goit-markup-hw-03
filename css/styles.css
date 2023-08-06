@@ -115,8 +115,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--primary-color);
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .contacts {
@@ -159,6 +157,8 @@ body {
 /* ================ HERO ================ */
 .hero {
     background-color: var(--primary-color);
+    padding-top: 188px;
+    padding-bottom: 188px
 }
 
 .page-hero-container {
@@ -291,14 +291,9 @@ body {
 }
 
 .page-footer-container {
-    display: flex;
-    align-items: center;
-}
-
-.logotype-footer {
     display: inline-block;
     margin-bottom: 16px;
-    }
+}
 
 .logotype-text-secondary-color {
     color: #F4F4FD;
