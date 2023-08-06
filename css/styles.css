@@ -109,17 +109,14 @@ body {
     gap: 40px;
 }
 
-.menu-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 .menu-link {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--primary-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contacts {
@@ -296,9 +293,12 @@ body {
 .page-footer-container {
     display: flex;
     align-items: center;
+}
+
+.logotype-footer {
     display: inline-block;
     margin-bottom: 16px;
-}
+    }
 
 .logotype-text-secondary-color {
     color: #F4F4FD;
