@@ -316,8 +316,9 @@ body {
 /* ================ PORTFOLIO ================ */
 .buttons-list {
     display: flex;
-    align-items: center;
-    column-gap: 24px;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
 
 .products-list {
@@ -338,13 +339,17 @@ body {
     letter-spacing: 0.64px;
     text-align: center;
     background-color: #F4F4FD;
-    color: var(--third-color)
+    color: var(--third-color);
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .sort-btn:hover,
 .sort-btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent
 }
 
 /* ================ /PORTFOLIO ================ */
