@@ -68,6 +68,11 @@ body {
     padding-bottom: 120px;
     }
 
+.section-portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .visually-hidden {
     position: fixed;
     transform: scale(0);
