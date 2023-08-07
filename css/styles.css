@@ -82,6 +82,8 @@ body {
 
 /* ============= PAGE HEADER ============= */
 .page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -106,8 +108,6 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color: var(--third-color);
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .logotype-text-first-color {
