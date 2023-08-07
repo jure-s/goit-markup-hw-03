@@ -293,6 +293,11 @@ body {
     text-align: center;
 }
 
+.section-worker {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 /* ================ /OUR TEAM ================ */
 
 /* ================ FOOTER ================ */
