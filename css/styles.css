@@ -318,6 +318,7 @@ body {
 
 .logotype-footer {
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logotype-text-secondary-color {
