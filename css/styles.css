@@ -151,6 +151,11 @@ body {
     color: var(--secondary-color);
 }
 
+.menu-link,
+.adress-link {
+    padding: 24px 0;
+}
+
 .menu-link:hover, 
 .adress-link:hover,
 .menu-link:focus, 
