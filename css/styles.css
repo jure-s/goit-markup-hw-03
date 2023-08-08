@@ -74,8 +74,16 @@ body {
 }
 
 .visually-hidden {
-    position: fixed;
-    transform: scale(0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
     
 /* ============= COMMON STYLES ============= */
@@ -303,9 +311,13 @@ body {
 
 /* ================ FOOTER ================ */
 .page-footer {
-    background-color: var(--primary-color);
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: var(--primary-color);
+}
+
+.logotype-footer {
+    display: inline-block;
 }
 
 .logotype-text-secondary-color {
