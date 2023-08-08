@@ -90,8 +90,6 @@ body {
 
 /* ============= PAGE HEADER ============= */
 .page-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -130,6 +128,7 @@ body {
 .menu-link {
     font-size: 16px;
     font-weight: 500;
+    display: block;
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--primary-color);
@@ -147,6 +146,7 @@ body {
 .adress-link {
     font-size: 16px;
     line-height: 1.5;
+    display: block;
     letter-spacing: 0.32px;
     color: var(--secondary-color);
 }
@@ -184,18 +184,16 @@ body {
     padding-bottom: 188px
 }
 
-.page-hero-container {
-    padding-top: 24px;
-    padding-bottom: 24px
-}
-
 .main-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 1.12px;
     text-align: center;
     color: #FFFFFF;
-    max-width: 496px
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .order-service-btn {
@@ -212,6 +210,8 @@ body {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .order-service-btn:hover,
@@ -256,6 +256,7 @@ body {
 
 /* ================ WHAT ARE WE DOING ================ */
 .what-doing-list {
+    padding-top: 0px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -334,6 +335,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: #F4F4FD;
+    max-width: 264px;
 }
 /* ================ /FOOTER ================ */
 
